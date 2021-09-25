@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import ButtonOne from './components/ButtonOne';
+import ButtonTwo from './components/ButtonTwo';
+import ButtonThree from './components/ButtonThree';
 import reportWebVitals from './reportWebVitals';
+import AddMinus from './components/AddMinus';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ButtonOne />
+    <ButtonTwo /> 
+    <ButtonThree />
+    <AddMinus />
   </React.StrictMode>,
   document.getElementById('root')
 );
